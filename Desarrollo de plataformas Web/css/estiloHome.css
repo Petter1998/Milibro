@@ -1,0 +1,158 @@
+
+body {
+    background-color: lightgreen;
+    
+}
+
+span {
+    font-size: xx-large;
+    color: darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+ul.menu {
+    background: #F4F4F4;
+    border: 3px solid #7C7C7C;
+    list-style: none;
+    margin: 1;
+    padding: 0;
+    overflow: hidden;
+}
+ul.menu li {
+    float: left;
+    width: 25%;
+    height: 10%;
+}
+ul.menu li h3 a {
+    border-left: 1px solid #FFF;
+    border-right: 3px solid #7C7C7C;
+    text-align: center;
+    color: #333;
+    display: block;
+    padding: .1em;
+    text-decoration: none;
+}
+
+#apartado0 {
+    height: 250px;
+    background-color: rgb(194, 191, 32);
+}
+
+.container-4{
+    overflow: hidden;
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.container-4 input#search{
+    width: 300px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #fff;
+    padding-left: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.container-4 input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+  
+ .container-4 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+}
+  
+ .container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;  
+}
+  
+ .container-4 input#search:-ms-input-placeholder {  
+    color: #65737e;  
+}
+.container-4 button.icon{
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+    border: none;
+    background: #232833;
+    height: 50px;
+    width: 50px;
+    color: #4f5b66;
+    opacity: 0;
+    font-size: 10pt;
+   
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+}
+
+.box {
+    position: absolute;
+    left: 1578px;
+}
+
+.caja {
+    height: 60px;
+}
+
+#apartado1 {
+    height: 440px;
+    background-color: rgba(216, 216, 92, 0.418);
+}
+
+.apart {
+    background-color: aqua;
+    height: 308px;
+}
+
+.maquinas {
+    font-size: 27px;
+    color: rgb(15, 35, 126);
+}
+
+#vid {
+    background-color: rgba(241, 247, 246, 0);
+    height: 320px;
+}
+
+.apartado {
+    background: rgba(206, 219, 85, 0.979);
+}
+
+#existen {
+    font-size: 27px;
+    color: rgb(15, 35, 126);
+}
+
+body.separador {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body.separador #apartado2 {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+footer {
+    background-color: black;
+    font-size: x-large;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    bottom: 0;
+    position: relative;
+    top: 1px;
+}
